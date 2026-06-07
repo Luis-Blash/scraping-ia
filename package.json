@@ -1,23 +1,28 @@
 {
-  "name": "novelasligeras-scraper",
-  "version": "1.0.0",
-  "description": "Descarga novelas de novelasligeras.net y las convierte en EPUB o PDF para leer offline.",
+  "name": "scraper-novelas-comics",
+  "version": "1.1.0",
+  "description": "Descarga novelas (novelasligeras.net) y cómics (marmota.me) y los convierte en EPUB, PDF o CBZ para leer offline.",
   "main": "scraper.js",
   "scripts": {
     "epub": "node generar-epub.js",
-    "pdf": "node generar-pdf.js"
+    "pdf": "node generar-pdf.js",
+    "comic": "node generar-comic.js"
   },
   "keywords": [
     "scraper",
     "epub",
     "pdf",
+    "cbz",
+    "comics",
     "novela-ligera",
     "puppeteer"
   ],
   "author": "Luis",
   "license": "MIT",
   "dependencies": {
+    "adm-zip": "^0.5.16",
     "epub-gen-memory": "^1.1.2",
+    "pdf-lib": "^1.17.1",
     "puppeteer": "^25.1.0",
     "puppeteer-core": "^25.1.0"
   }
