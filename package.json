@@ -1,0 +1,24 @@
+{
+  "name": "novelasligeras-scraper",
+  "version": "1.0.0",
+  "description": "Descarga novelas de novelasligeras.net y las convierte en EPUB o PDF para leer offline.",
+  "main": "scraper.js",
+  "scripts": {
+    "epub": "node generar-epub.js",
+    "pdf": "node generar-pdf.js"
+  },
+  "keywords": [
+    "scraper",
+    "epub",
+    "pdf",
+    "novela-ligera",
+    "puppeteer"
+  ],
+  "author": "Luis",
+  "license": "MIT",
+  "dependencies": {
+    "epub-gen-memory": "^1.1.2",
+    "puppeteer": "^25.1.0",
+    "puppeteer-core": "^25.1.0"
+  }
+}

@@ -1,0 +1,14 @@
+# Dependencias
+node_modules/
+package-lock.json
+
+# Respaldos de scraping (texto descargado)
+backup/
+
+# Libros generados
+*.epub
+*.pdf
+
+# Logs y temporales
+*.log
+.DS_Store
